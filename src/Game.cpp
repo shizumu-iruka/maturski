@@ -1,3 +1,6 @@
+#include <fstream>
+#include <sstream>
+
 #include "Game.h"
 
 Game::Game() : m_Window(sf::VideoMode(m_WindowSize, desktopMode.bitsPerPixel), "Maturski", sf::State::Windowed),

@@ -1,3 +1,6 @@
+#include <SFML/Graphics/RectangleShape.hpp>
+#include <SFML/Graphics/Shader.hpp>
+
 #include "OtherGameObjectManager.h"
 
 OtherObjects::OtherObjects(sf::Vector2u windowSize):

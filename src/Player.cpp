@@ -16,6 +16,7 @@ void Player::handleInput(sf::Keyboard::Key key, bool isPressed) {
         case sf::Keyboard::Key::Down:  m_MovingDown = true; break;
         case sf::Keyboard::Key::Left:  m_MovingLeft = true; break;
         case sf::Keyboard::Key::Right: m_MovingRight = true; break;
+        default: break;
         }
     }
     else {
@@ -24,6 +25,7 @@ void Player::handleInput(sf::Keyboard::Key key, bool isPressed) {
         case sf::Keyboard::Key::Down:  m_MovingDown = false; break;
         case sf::Keyboard::Key::Left:  m_MovingLeft = false; break;
         case sf::Keyboard::Key::Right: m_MovingRight = false; break;
+        default: break;
         }
     }
 }

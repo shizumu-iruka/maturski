@@ -1,4 +1,6 @@
 #pragma once
+#include <SFML/Window/Keyboard.hpp>
+
 #include "SpriteAnimator.h"
 
 class Game;
@@ -24,9 +26,10 @@ protected:
 
 private:
 	sf::Sprite m_Sprite;
-	SpriteAnimator m_SpriteAnimator;
 	sf::Vector2f m_Speed;
 
+	SpriteAnimator m_SpriteAnimator;
+	
 	bool m_MovingUp = false;
 	bool m_MovingDown = false;
 	bool m_MovingLeft = false;

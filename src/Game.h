@@ -1,6 +1,4 @@
 #pragma once
-#include <fstream>
-#include <sstream>
 #include <string>
 #include <array>
 
@@ -82,7 +80,7 @@ private:
 	const sf::Vector2u tileSize = { 16u, 16u };
     const unsigned int tileWidth = 40, tileHeight = 30;
 
-	const std::string& pathToMap = "resources/files/map.txt";
+	const std::string pathToMap = "resources/files/map.txt";
 
 	std::unordered_map<std::string, unsigned int> TileMapper = {
 		 {"uw1", 1 }, {"uw2", 2 }, {"uw3", 3 } , { "uw4" , 4 },

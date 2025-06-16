@@ -1,4 +1,7 @@
 #pragma once
+#include <memory>
+#include <SFML/Graphics/RenderTexture.hpp>
+
 #include "Player.h"
 #include "Tilemap.h"
 

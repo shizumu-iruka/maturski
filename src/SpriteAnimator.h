@@ -1,5 +1,6 @@
 #pragma once
-#include "SFML/Graphics.hpp"
+#include "SFML/Graphics/Sprite.hpp"
+#include "SFML/System/Time.hpp"
 
 class SpriteAnimator {
 public:
@@ -26,7 +27,7 @@ private:
 	float m_FrameTime;
 	int m_CurrentFrame = 0;
 
-	Direction m_CurrentDirection = Direction::Down;
-
 	float m_ElapsedTime = 0.f;
+
+    Direction m_CurrentDirection = Direction::Down;
 };

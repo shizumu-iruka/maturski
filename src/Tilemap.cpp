@@ -1,3 +1,6 @@
+#include <SFML/Graphics/RenderTarget.hpp>
+#include <SFML/Graphics/Texture.hpp>
+
 #include "Tilemap.h"
 
 void Tilemap::load(const sf::Texture& tileset, sf::Vector2u tileSize,
