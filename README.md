@@ -4,7 +4,7 @@
   <li><a href="https://cmake.org/download/">Cmake</li> za bildovanje fajla
 </ul>
 
-### Running
+### Pokretanje
 <ol>
   <li>Otvoriti aplikaciju u VS-u ili VS kodu</li>
   <li>Pokrenuti aplikaciju i uživati</li>
